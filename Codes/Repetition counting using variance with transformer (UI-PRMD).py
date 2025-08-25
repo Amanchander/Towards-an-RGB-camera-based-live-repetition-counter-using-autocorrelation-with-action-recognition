@@ -24,7 +24,7 @@ import tensorflow as tf
 
 counting_results = []  
 
-desired_activity = 'hurdle_step'
+desired_activity = 'm01'
 
 # Set the activity you want to read (e.g., 'm01', 'm02', etc.)
 desired_activity_code = desired_activity
@@ -632,4 +632,5 @@ print(f"Mean Absolute Error (MAE): {mae:.4f}")
 print(f"Root Mean Squared Error (RMSE): {rmse:.4f}")
     
     
+
     
