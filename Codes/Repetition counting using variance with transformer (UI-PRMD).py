@@ -232,7 +232,7 @@ def process_video(input_data, sub_no):
 
 
 
-    alpha = 0.08
+    alpha = 0.1
     min_distance = 10
 
     
@@ -634,3 +634,4 @@ print(f"Root Mean Squared Error (RMSE): {rmse:.4f}")
     
 
     
+
